@@ -41,3 +41,33 @@ h1{
     background-position: right;
     
 }
+
+.ex{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.ex-items{
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 10px;
+box-shadow: 10px 10px 40px gray;
+border-radius: 10px;
+}
+
+#list-one{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan) ;
+    border-image-slice: 1;
+}
+
+#list-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,tomato) ;
+    border-image-slice: 1;
+}
+footer p{
+text-align: center;
+}
